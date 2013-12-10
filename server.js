@@ -1,5 +1,6 @@
 
   var fs = require('fs'),
+  connect=require('connect'),
     path = require('path'),
     sio = require('socket.io'),
     static = require('node-static');
@@ -9,7 +10,10 @@
   var app = require('http').createServer(handler);
   //app.listen(3000);
 
-  var file = new static.Server(path.join(__dirname + '/public')).listen(port);
+  var file = connect.createServer(
+      connect.static(__dirname + '/public')
+    ).listen(port);
+  //new static.Server(path.join(__dirname + '/public')).listen(port);
 
   function handler(req, res) {
     file.serve(req, res);
