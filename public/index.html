@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='/index.css' rel='stylesheet'/>
+    <script src='http://code.jquery.com/jquery-1.6.1.min.js'></script>
+    <script src='/socket.io/socket.io.js'></script>
+    <script src='/index.js'></script>
+    <title>chat</title>
+  </head>
+  <body>
+   <h1>chat</h1>
+   <div id="chat">
+   <!-- <input type="file" accept="video/*;capture=camcorder">
+   <video autoplay></video> -->
+      <div id="nickname">
+        <form class="wrap" id="set-nickname">
+          <label for="nick">type in nickname and press enter</label>
+          <input id="nick" name="nick" type="text" placeholder="nickname" />
+          <p id="nickname-err">Nickname already in use</p>
+        </form>
+      </div>
+      <div id="connecting">
+        <div class="wrap">Connecting to socket.io server</div>
+      </div>
+      <div id="messages">
+        <div id="nicknames"></div>
+        <div id="lines"></div>
+      </div>
+      <form id="send-message">
+        <input id="message" type="text"/>
+        <div>
+          <button value="" class="send">Send</button>
+          <div class="filebutton">Send Image<input type="file" id="imagefile" accept="image/*"></div>
+        </div>
+      </form>
+       <video autoplay></video>
+<img src="">
+<canvas style="display:none;"></canvas>
+
+<script>
+  var video = document.querySelector('video');
+  var canvas = document.querySelector('canvas');
+  var ctx = canvas.getContext('2d');
+  var localMediaStream = null;
+
+  function snapshot() {
+    if (localMediaStream) {
+      ctx.drawImage(video, 0, 0);
+      // "image/webp" works in Chrome.
+      // Other browsers will fall back to image/png.
+      document.querySelector('img').src = canvas.toDataURL('image/webp');
+    }
+  }
+
+  video.addEventListener('click', snapshot, false);
+
+  // Not showing vendor prefixes or code that works cross-browser.
+  navigator.webkitGetUserMedia({video: true}, function(stream) {
+    video.src = window.URL.createObjectURL(stream);
+    localMediaStream = stream;
+  });
+</script>
+  </body>
+ 
+</html>
