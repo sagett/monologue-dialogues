@@ -12,9 +12,7 @@
     "node": "*"
   },
   "subdomain": "xyz"
-
-
-  },
+  ,
   "name": "test7",
   "main": "server.js",
   "devDependencies": {},
