@@ -15,8 +15,8 @@
     ).listen(port);
   //new static.Server(path.join(__dirname + '/public')).listen(port);
 
-  function handler(req, res) {
-    file.serve(req, res);
+  function port(req, res) {
+    app.serve(req, res);
   }
 
   var io = sio.listen(app);
