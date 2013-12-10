@@ -4,8 +4,10 @@
     sio = require('socket.io'),
     static = require('node-static');
 
+    var port = process.env.Port || 3000;
+
   var app = require('http').createServer(handler);
-  app.listen(3000);
+  //app.listen(3000);
 
   var file = new static.Server(path.join(__dirname + '/public'));
 
