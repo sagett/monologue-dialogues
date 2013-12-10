@@ -10,7 +10,7 @@
   //var app = require('http').createServer(handler);
   //app.listen(3000);
 
-  var file = connect.createServer(
+  var app = connect.createServer(
       connect.static(__dirname + '/public')
     ).listen(port);
   //new static.Server(path.join(__dirname + '/public')).listen(port);
@@ -19,8 +19,8 @@
     file.serve(req, res);
   }
 
-  var io = sio.listen(file),
-    nicknames = {};
+  var io = sio.listen(app);
+  var  nicknames = {};
 
   io.sockets.on('connection', function (socket) {
 
