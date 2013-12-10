@@ -16,7 +16,7 @@
     "start": "server.js"
   },
   "name": "test7",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "license": "BSD-2-Clause"
 }
