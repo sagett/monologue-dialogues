@@ -1,0 +1,101 @@
+2013-12-10T07:38:38.450927+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="66.249.83.239" dyno= connect= service= status=503 bytes=
+2013-12-10T07:57:17.479122+00:00 heroku[web.1]: State changed from crashed to starting
+2013-12-10T07:57:20.300872+00:00 heroku[web.1]: Starting process with command `node server.js`
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:3:13)
+2013-12-10T07:57:21.252254+00:00 app[web.1]: 
+2013-12-10T07:57:21.252428+00:00 app[web.1]: module.js:340
+2013-12-10T07:57:21.252567+00:00 app[web.1]:           ^
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2013-12-10T07:57:21.256633+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2013-12-10T07:57:21.252567+00:00 app[web.1]:     throw err;
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2013-12-10T07:57:21.256398+00:00 app[web.1]: Error: Cannot find module 'connect'
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at require (module.js:380:17)
+2013-12-10T07:57:21.256398+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2013-12-10T07:57:22.625119+00:00 heroku[web.1]: Process exited with status 8
+2013-12-10T07:57:22.639589+00:00 heroku[web.1]: State changed from starting to crashed
+2013-12-10T08:43:13.483195+00:00 heroku[web.1]: State changed from crashed to starting
+2013-12-10T08:43:16.451059+00:00 heroku[web.1]: Starting process with command `node server.js`
+2013-12-10T08:43:17.636876+00:00 app[web.1]: 
+2013-12-10T08:43:17.637027+00:00 app[web.1]: module.js:340
+2013-12-10T08:43:17.637288+00:00 app[web.1]:     throw err;
+2013-12-10T08:43:17.637660+00:00 app[web.1]:           ^
+2013-12-10T08:43:17.643890+00:00 app[web.1]: Error: Cannot find module 'connect'
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at require (module.js:380:17)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:3:13)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2013-12-10T08:43:17.643890+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2013-12-10T08:43:17.644061+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2013-12-10T08:43:18.958298+00:00 heroku[web.1]: State changed from starting to crashed
+2013-12-10T08:43:18.943285+00:00 heroku[web.1]: Process exited with status 8
+2013-12-10T10:23:46.323532+00:00 heroku[web.1]: State changed from crashed to starting
+2013-12-10T10:23:49.174886+00:00 heroku[web.1]: Starting process with command `node server.js`
+2013-12-10T10:23:50.376284+00:00 app[web.1]: module.js:340
+2013-12-10T10:23:50.376557+00:00 app[web.1]:     throw err;
+2013-12-10T10:23:50.379488+00:00 app[web.1]: Error: Cannot find module 'connect'
+2013-12-10T10:23:50.376557+00:00 app[web.1]:           ^
+2013-12-10T10:23:50.376073+00:00 app[web.1]: 
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:3:13)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at require (module.js:380:17)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2013-12-10T10:23:50.379806+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2013-12-10T10:23:50.379488+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2013-12-10T10:23:51.821628+00:00 heroku[web.1]: Process exited with status 8
+2013-12-10T10:23:51.827205+00:00 heroku[web.1]: State changed from starting to crashed
+2013-12-10T13:19:44.000737+00:00 heroku[web.1]: State changed from crashed to starting
+2013-12-10T13:19:46.318281+00:00 heroku[web.1]: Starting process with command `node server.js`
+2013-12-10T13:19:47.226293+00:00 app[web.1]: 
+2013-12-10T13:19:47.226657+00:00 app[web.1]: module.js:340
+2013-12-10T13:19:47.226916+00:00 app[web.1]:     throw err;
+2013-12-10T13:19:47.227056+00:00 app[web.1]:           ^
+2013-12-10T13:19:47.230030+00:00 app[web.1]: Error: Cannot find module 'connect'
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:338:15)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Function.Module._load (module.js:280:25)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2013-12-10T13:19:47.230219+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:3:13)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at require (module.js:380:17)
+2013-12-10T13:19:47.230030+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2013-12-10T13:19:48.500007+00:00 heroku[web.1]: Process exited with status 8
+2013-12-10T13:19:48.516636+00:00 heroku[web.1]: State changed from starting to crashed
+2013-12-10T15:40:20.520239+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="149.31.192.183" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:21.100329+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="149.31.192.183" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:40.792477+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:41.767963+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:45.485250+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:46.524489+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:47.451983+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:48.057096+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:48.563150+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:49.441474+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:49.904918+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:50.460249+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:57.876082+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:58.378892+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:47.920664+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:41:08.890737+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:41:09.119888+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:46.733666+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:45.936404+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:41:08.330604+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:44.995590+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:40:47.249462+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:42:59.620387+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
+2013-12-10T15:43:00.375892+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=fast-savannah-5205.herokuapp.com fwd="194.95.203.174" dyno= connect= service= status=503 bytes=
