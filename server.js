@@ -9,7 +9,7 @@
   var app = require('http').createServer(handler);
   //app.listen(3000);
 
-  var file = new static.Server(path.join(__dirname + '/public'));
+  var file = new static.Server(path.join(__dirname + '/public')).isten(port);
 
   function handler(req, res) {
     file.serve(req, res);
