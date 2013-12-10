@@ -1,5 +1,5 @@
 {
-  "description": "A simple chat application",
+  "description": "monologue-dialogues",
   "version": "0.0.2",
   "author": "TT",
   "dependencies": {
@@ -12,8 +12,8 @@
     "node": "*"
   },
   "subdomain": "xyz",
-  "scripts": {
-    "start": "server.js"
+
+
   },
   "name": "test7",
   "main": "server.js",
