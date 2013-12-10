@@ -5,8 +5,8 @@
   "dependencies": {
     "socket.io": "*",
     "node-static": "*",
-    "socket.io-client": "*",
-    "uglify-js": "*"
+    "socket.io-client": "~0.9.16",
+    "uglify-js": "~2.4.7"
   },
   "engines": {
     "node": "*"

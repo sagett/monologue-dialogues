@@ -1,13 +1,13 @@
 
   var fs = require('fs'),
-  connect=require('connect'),
+    connect=require('connect'),
     path = require('path'),
     sio = require('socket.io'),
     static = require('node-static');
 
     var port = process.env.Port || 3000;
 
-  var app = require('http').createServer(handler);
+  //var app = require('http').createServer(handler);
   //app.listen(3000);
 
   var file = connect.createServer(
@@ -19,7 +19,7 @@
     file.serve(req, res);
   }
 
-  var io = sio.listen(app),
+  var io = sio.listen(file),
     nicknames = {};
 
   io.sockets.on('connection', function (socket) {
