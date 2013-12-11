@@ -6,13 +6,13 @@
     "socket.io": "*",
     "node-static": "*",
     "socket.io-client": "~0.9.16",
-    "uglify-js": "~2.4.7"
+    "uglify-js": "~2.4.7",
+    "connect": "*"
   },
   "engines": {
     "node": "*"
   },
-  "subdomain": "xyz"
-  ,
+  "subdomain": "xyz",
   "name": "test7",
   "main": "server.js",
   "devDependencies": {},
