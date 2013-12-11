@@ -5,7 +5,7 @@
     sio = require('socket.io');
     //static = require('node-static');
 
-    var port = process.env.Port || 4000;
+    var port = process.env.PORT || 5000;
 
   //var app = require('http').createServer(handler);
   //app.listen(3000);
