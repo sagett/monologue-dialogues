@@ -10,7 +10,7 @@
     "connect": "*"
   },
   "engines": {
-    "node": "*"
+    "node": "0.10.22"
   },
   "subdomain": "xyz",
   "name": "test7",
